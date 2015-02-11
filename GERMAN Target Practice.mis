@@ -1,0 +1,399 @@
+[MAIN]
+  MAP Normandy/load2.ini
+  TIME 12.0
+  CloudType 0
+  CloudHeight 1000.0
+  army 1
+  playerNum 0
+[Wing]
+  30thSqn12
+  15AF_31FG_307FS10
+  15AF_31FG_307FS11
+  30thSqn10
+  3IAK13
+  B_8AF_493BG_861BS12
+  30thSqn11
+  JG6_II30
+  57GvIAP12
+  4GvIAPKBF13
+  23ShAP11
+  728IAP13
+  15AF_31FG_309FS11
+  15AF_31FG_307FS12
+  15AF_31FG_309FS10
+  8AF_020FG_55FS13
+  B_8AF_034BG_007BS10
+  RAF_No071SQN13
+  5GvIAP13
+  gb0112
+  15AF_325FG_319FS10
+  57GvIAP13
+  7GvShAP10
+  7GvIAP11
+  II_JG100
+  JG6_III33
+  Stab_JG1132
+  Erg_JG2621
+  4_JG5231
+  Erg_JG2623
+  B_8AF_490BG_851BS12
+  30thSqn13
+  I_JG122
+  30thSqn20
+  JG6_II31
+  JG6_III30
+  JG6_III31
+[30thSqn12]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.HurricaneMkIIc
+  Fuel 100
+  weapons none
+[30thSqn12_Way]
+  NORMFLY 111328.56 92840.22 500.00 300.00 &0
+  NORMFLY 115876.27 89153.26 500.00 300.00 &0
+[15AF_31FG_307FS10]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.P_40E
+  Fuel 25
+  weapons none
+[15AF_31FG_307FS10_Way]
+  NORMFLY 126783.22 68039.14 500.00 300.00 &0
+  NORMFLY 112815.29 85217.17 500.00 300.00 &0
+[15AF_31FG_307FS11]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.P_51D20NA
+  Fuel 100
+  weapons none
+[15AF_31FG_307FS11_Way]
+  NORMFLY 132915.19 92382.44 500.00 300.00 &0
+  NORMFLY 121524.98 86024.53 500.00 300.00 &0
+[30thSqn10]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.SPITFIRE5BLFCLP
+  Fuel 100
+  weapons none
+[30thSqn10_Way]
+  NORMFLY 108166.86 81743.08 500.00 300.00 &0
+  NORMFLY 118784.85 88471.07 500.00 300.00 &0
+[3IAK13]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.YAK_9M
+  Fuel 100
+  weapons none
+[3IAK13_Way]
+  NORMFLY 113540.27 69405.26 500.00 300.00 &0
+  NORMFLY 123090.77 89816.67 500.00 300.00 &0
+[B_8AF_493BG_861BS12]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.B_25J1
+  Fuel 100
+  weapons none
+[B_8AF_493BG_861BS12_Way]
+  NORMFLY 108580.72 65718.34 500.00 300.00 &0
+  NORMFLY 138598.75 97625.13 500.00 300.00 &0
+[30thSqn11]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.GLADIATOR2
+  Fuel 100
+  weapons none
+[30thSqn11_Way]
+  NORMFLY 113316.39 94139.40 500.00 300.00 &0
+  NORMFLY 119567.75 89302.90 500.00 300.00 &0
+[JG6_II30]
+  Planes 1
+  Skill 3
+  Class air.FW_190A4
+  Fuel 100
+  weapons none
+[JG6_II30_Way]
+  TAKEOFF 117388.90 86382.51 0 0 &0
+[57GvIAP12]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.I_16TYPE24
+  Fuel 100
+  weapons none
+[57GvIAP12_Way]
+  NORMFLY 131527.28 100424.41 500.00 300.00 &0
+  NORMFLY 115691.43 65273.46 500.00 300.00 &0
+[4GvIAPKBF13]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.IL_2_1941Late
+  Fuel 100
+  weapons none
+[4GvIAPKBF13_Way]
+  NORMFLY 134290.13 64954.72 500.00 300.00 &0
+  NORMFLY 112368.44 86258.87 500.00 300.00 &0
+[23ShAP11]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.LAGG_3IT
+  Fuel 100
+  weapons none
+[23ShAP11_Way]
+  NORMFLY 115453.58 101771.14 500.00 300.00 &0
+  NORMFLY 116482.85 78425.67 500.00 300.00 &0
+[728IAP13]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.MIG_3U
+  Fuel 100
+  weapons none
+[728IAP13_Way]
+  NORMFLY 138668.83 67478.25 500.00 300.00 &0
+  NORMFLY 112219.57 89255.25 500.00 300.00 &0
+[15AF_31FG_309FS11]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.P_38L
+  Fuel 100
+  weapons none
+[15AF_31FG_309FS11_Way]
+  NORMFLY 94165.63 95827.52 500.00 300.00 &0
+  NORMFLY 139539.46 83871.36 500.00 300.00 &0
+[15AF_31FG_307FS12]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.P_39Q1
+  Fuel 100
+  weapons none
+[15AF_31FG_307FS12_Way]
+  NORMFLY 106518.33 73972.75 500.00 300.00 &0
+  NORMFLY 122671.85 91947.50 500.00 300.00 &0
+[15AF_31FG_309FS10]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.P_47D22
+  Fuel 100
+  weapons none
+[15AF_31FG_309FS10_Way]
+  NORMFLY 98362.38 101053.66 500.00 300.00 &0
+  NORMFLY 121899.48 81825.34 500.00 300.00 &0
+[8AF_020FG_55FS13]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.P_47D27
+  Fuel 100
+  weapons none
+[8AF_020FG_55FS13_Way]
+  NORMFLY 100341.98 88621.78 500.00 300.00 &0
+  NORMFLY 137162.51 96698.54 500.00 300.00 &0
+[B_8AF_034BG_007BS10]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.P_63C
+  Fuel 100
+  weapons none
+[B_8AF_034BG_007BS10_Way]
+  NORMFLY 127106.15 73022.54 500.00 300.00 &0
+  NORMFLY 99152.38 94561.10 500.00 300.00 &0
+[RAF_No071SQN13]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.SPITFIRE5B
+  Fuel 100
+  weapons none
+[RAF_No071SQN13_Way]
+  NORMFLY 92661.14 82999.72 500.00 300.00 &0
+  NORMFLY 128452.28 87354.84 500.00 300.00 &0
+[5GvIAP13]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.YAK_9T
+  Fuel 100
+  weapons none
+[5GvIAP13_Way]
+  NORMFLY 92661.14 72547.44 500.00 300.00 &0
+  NORMFLY 126155.95 89096.88 500.00 300.00 &0
+[gb0112]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.SPITFIRE9CCLP
+  Fuel 100
+  weapons none
+[gb0112_Way]
+  NORMFLY 114199.17 78961.34 500.00 300.00 &0
+  NORMFLY 117841.63 93610.37 500.00 300.00 &0
+[15AF_325FG_319FS10]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.F2A_B239
+  Fuel 100
+  weapons none
+[15AF_325FG_319FS10_Way]
+  NORMFLY 107863.85 100500.21 500.00 300.00 &0
+  NORMFLY 117524.90 80940.94 500.00 300.00 &0
+[57GvIAP13]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.P_39N
+  Fuel 100
+  weapons none
+[57GvIAP13_Way]
+  NORMFLY 127422.89 94243.84 500.00 300.00 &0
+  NORMFLY 96617.99 66527.99 500.00 300.00 &0
+[7GvShAP10]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.MIG_3EARLY
+  Fuel 100
+  weapons none
+[7GvShAP10_Way]
+  NORMFLY 133282.50 77615.21 500.00 300.00 &0
+  NORMFLY 109368.95 90363.83 500.00 300.00 &0
+[7GvIAP11]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.I_185M71
+  Fuel 100
+  weapons none
+[7GvIAP11_Way]
+  NORMFLY 117920.82 66846.20 500.00 300.00 &0
+  NORMFLY 118950.21 94323.02 500.00 300.00 &0
+[II_JG100]
+  Planes 1
+  Skill 3
+  Class air.ME_262A2A
+  Fuel 100
+  weapons none
+[II_JG100_Way]
+  TAKEOFF 117445.77 86329.15 0 0 &0
+[JG6_III33]
+  Planes 1
+  Skill 3
+  Class air.FW_190D9
+  Fuel 100
+  weapons none
+[JG6_III33_Way]
+  TAKEOFF 117454.88 86363.47 0 0 &0
+[Stab_JG1132]
+  Planes 1
+  Skill 3
+  Class air.FW_190A8
+  Fuel 100
+  weapons none
+[Stab_JG1132_Way]
+  TAKEOFF 117410.24 86358.27 0 0 &0
+[Erg_JG2621]
+  Planes 1
+  Skill 3
+  Class air.BF_109E4
+  Fuel 100
+  weapons none
+[Erg_JG2621_Way]
+  TAKEOFF 117220.79 86343.36 0 0 &0
+[4_JG5231]
+  Planes 1
+  Skill 3
+  Class air.BF_109K4
+  Fuel 100
+  weapons none
+[4_JG5231_Way]
+  TAKEOFF 117240.93 86357.38 0 0 &0
+[Erg_JG2623]
+  Planes 1
+  Skill 3
+  Class air.BF_109G6Late
+  Fuel 100
+  weapons none
+[Erg_JG2623_Way]
+  TAKEOFF 117239.24 86329.73 0 0 &0
+[B_8AF_490BG_851BS12]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.B_17G
+  Fuel 100
+  weapons none
+[B_8AF_490BG_851BS12_Way]
+  NORMFLY 97091.75 91258.66 500.00 300.00 &0
+  NORMFLY 134924.22 87651.75 500.00 300.00 &0
+[30thSqn13]
+  Planes 1
+  OnlyAI 1
+  Skill 3
+  Class air.B_25C25
+  Fuel 100
+  weapons none
+[30thSqn13_Way]
+  NORMFLY 120256.12 99274.01 500.00 300.00 &0
+  NORMFLY 113362.92 66411.06 500.00 300.00 &0
+[I_JG122]
+  Planes 1
+  Skill 1
+  Class air.BF_109F4
+  Fuel 100
+  weapons none
+[I_JG122_Way]
+  TAKEOFF 117200.33 86374.81 0 0 &0
+[30thSqn20]
+  Planes 2
+  OnlyAI 1
+  Skill 3
+  Class air.C_47
+  Fuel 100
+  weapons default
+[30thSqn20_Way]
+  NORMFLY 121544.67 87518.87 500.00 300.00 &0
+  NORMFLY 111138.66 86381.72 500.00 300.00 &0
+[JG6_II31]
+  Planes 1
+  Skill 1
+  Class air.BF_109G2
+  Fuel 100
+  weapons none
+[JG6_II31_Way]
+  TAKEOFF 117460.88 86346.18 0 0 &0
+[JG6_III30]
+  Planes 1
+  Skill 1
+  Class air.TA_152H1
+  Fuel 100
+  weapons none
+[JG6_III30_Way]
+  TAKEOFF 117199.63 86354.98 0 0 &0
+[JG6_III31]
+  Planes 1
+  Skill 2
+  Class air.DO_335A0
+  Fuel 100
+  weapons none
+[JG6_III31_Way]
+  TAKEOFF 117447.45 86346.64 0 0 &0
+[NStationary]
+[Buildings]
+[BornPlace]
+  2 3000 116557 86824
+[Bridge]
+[House]
