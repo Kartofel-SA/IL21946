@@ -46,9 +46,9 @@
   Searchlight 1800
 [Wing]
   usa0102
+  kp0102
+  kp0103
   kp0101
-  r0100
-  r0101
 [usa0102]
   Planes 4
   Skill 1
@@ -70,13 +70,13 @@
   NORMFLY 158423.60 423754.28 500.00 300.00 &0
   NORMFLY 162907.29 381906.54 500.00 300.00 &0
   LANDING 166939.89 373995.50 0 0 &0
-[kp0101]
+[kp0102]
   Planes 4
   Skill 1
   Class air.Mig_15bis
   Fuel 100
   weapons default
-[kp0101_Way]
+[kp0102_Way]
   TAKEOFF 43055.71 495627.50 0 0 &0
   NORMFLY 97419.90 502715.45 500.00 300.00 &0
   NORMFLY 123634.03 507363.34 500.00 300.00 &0
@@ -85,13 +85,13 @@
   NORMFLY 174017.22 448799.86 500.00 300.00 &0
   NORMFLY 108760.76 445453.37 500.00 300.00 &0
   LANDING 43055.71 495627.50 0 0 &0
-[r0100]
+[kp0103]
   Planes 2
   Skill 1
   Class air.Mig_15bis
   Fuel 100
   weapons default
-[r0100_Way]
+[kp0103_Way]
   TAKEOFF 93109.65 490979.91 0 0 &0
   NORMFLY 134986.07 499892.08 2000.00 300.00 &0
   NORMFLY 139293.13 517152.59 2000.00 300.00 &0
@@ -105,13 +105,13 @@
   NORMFLY 194008.73 475677.21 500.00 300.00 &0
   NORMFLY 142324.02 449515.82 500.00 300.00 &0
   LANDING 94939.59 490979.06 0 0 &0
-[r0101]
+[kp0101]
   Planes 3
   Skill 1
   Class air.U_2VS
   Fuel 100
   weapons default
-[r0101_Way]
+[kp0101_Way]
   NORMFLY 194497.02 498803.56 2000.00 194.00 &0
   NORMFLY 226233.28 502689.08 2000.00 194.00 &0
   NORMFLY 248926.05 511862.91 2000.00 194.00 &0
@@ -123,7 +123,7 @@
   NORMFLY 125544.58 486648.72 2000.00 194.00 &0
   LANDING 43055.71 495627.50 0 0 &0
 [Chiefs]
-  0_Chief Vehicles.ZIS5_radio 1
+  0_Chief Vehicles.ZIS5_radio 2
   1_Chief Vehicles.Bus_US 1
   2_Chief Vehicles.Bus_US 1
   3_Chief Vehicles.Tractor_US 1
@@ -231,7 +231,7 @@
   2_Static vehicles.artillery.Artillery$USInfantryE 1 99657.43 458970.21 645.00 0.0 0 1 1
   3_Static vehicles.artillery.Artillery$USInfantryE 1 100129.61 458957.59 645.00 0.0 0 1 1
   4_Static vehicles.artillery.Artillery$USInfantryE 1 100506.71 458966.37 645.00 0.0 0 1 1
-  5_Static vehicles.artillery.Artillery$USInfantryE 1 100771.00 458981.23 645.00 0.0 0 1 1
+  5_Static vehicles.artillery.Artillery$USInfantryE 1 101011.20 458715.51 645.00 0.0 0 1 1
   6_Static vehicles.artillery.Artillery$USInfantryE 1 101387.49 459016.58 645.00 0.0 0 1 1
   7_Static vehicles.artillery.Artillery$USInfantryE 1 102005.71 459040.20 645.00 0.0 0 1 1
   8_Static vehicles.artillery.Artillery$USInfantryE 1 102257.77 459040.20 645.00 0.0 0 1 1
@@ -393,3 +393,4 @@
   FrontMarker5 195372.48 265914.97 1
   FrontMarker6 226247.20 521769.59 2
   FrontMarker7 231935.83 476531.40 1
+  FrontMarker8 142686.51 429844.76 1
