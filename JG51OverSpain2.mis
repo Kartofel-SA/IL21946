@@ -1,17 +1,17 @@
 [MAIN]
   MAP Jir_Northern_Spain_1936/load.ini
-  TIME 12.000002
-  CloudType 0
+  TIME 10.283335
+  CloudType 1
   CloudHeight 1000.0
   army 1
   playerNum 0
 [SEASON]
-  Year 1940
-  Month 6
-  Day 15
+  Year 1936
+  Month 10
+  Day 17
 [WEATHER]
-  WindDirection 0.0
-  WindSpeed 0.0
+  WindDirection 25.0
+  WindSpeed 1.0
   Gust 0
   Turbulence 0
 [MDS]
@@ -46,7 +46,13 @@
   Searchlight 1800
 [Wing]
   Escuadr12_22
+  Escuadr12_23
+  K_8800
+  K_8801
+  Escuadr12_20
+  K_8802
   K_8803
+  K_8810
 [Escuadr12_22]
   Planes 3
   Skill 0
@@ -61,14 +67,91 @@
   NORMFLY 330866.75 58220.19 1250.00 300.00 &0
   NORMFLY 315435.63 85097.24 800.00 300.00 &0
   LANDING 300796.09 87990.22 0 0 &0
-[K_8803]
+[Escuadr12_23]
+  Planes 4
+  Skill 0
+  Class air.I_15_m22
+  Fuel 68
+  weapons 2xFAB100
+[Escuadr12_23_Way]
+  TAKEOFF 294039.91 90987.27 0 0 &0
+  NORMFLY 297499.60 87647.45 500.00 300.00 Escuadr12_22 1 &0
+  NORMFLY 319695.46 60116.25 1000.00 300.00 &0
+  GATTACK 327108.25 51735.90 1000.00 300.00 20_Chief 0 &0
+  LANDING 323459.00 59937.12 0 0 &0
+[K_8800]
+  Planes 2
+  Skill 1
+  Class air.FiatBr20
+  Fuel 100
+  weapons 12x100
+[K_8800_Way]
+  TAKEOFF 325175.50 39774.80 0 0 &0
+  NORMFLY 328422.33 35595.14 500.00 230.00 &0
+  NORMFLY 331927.97 43258.89 700.00 230.00 &0
+  NORMFLY 327475.38 49167.67 500.00 230.00 &0
+  GATTACK 326753.18 53221.05 700.00 230.00 58_Chief 4 &0 F5
+  NORMFLY 321910.83 55186.52 700.00 230.00 &0
+  LANDING 325047.81 41054.36 0 0 &0
+[K_8801]
   Planes 1
   Skill 1
-  Class air.BF_109C1
+  Class air.SM79i
+  Fuel 100
+  weapons 12xCassette
+[K_8801_Way]
+  TAKEOFF 325049.81 39769.68 0 0 &0
+  NORMFLY 328131.10 35603.25 500.00 230.00 &0
+  NORMFLY 330594.98 43450.91 500.00 230.00 &0
+  NORMFLY 326899.90 48913.62 700.00 230.00 &0
+  GATTACK 326189.15 53013.97 700.00 230.00 47_Chief 0 &0
+  NORMFLY 321959.79 55272.68 700.00 230.00 &0
+  LANDING 325173.22 41048.11 0 0 &0
+[Escuadr12_20]
+  Planes 3
+  Skill 0
+  Class air.R_5
+  Fuel 100
+  weapons Gunpods+16x10+2x100
+[Escuadr12_20_Way]
+  TAKEOFF 323459.00 59937.12 0 0 &0
+  NORMFLY 321258.84 61594.98 500.00 228.00 &0
+  NORMFLY 321312.26 59743.06 500.00 228.00 &0
+  GATTACK 326645.60 52160.50 500.00 228.00 19_Chief 0 &0
+  NORMFLY 328118.98 50940.87 500.00 228.00 K_8800 2 &0
+  LANDING 323459.00 59937.12 0 0 &0
+[K_8802]
+  Planes 4
+  Skill 1
+  Class air.BF_109B1
   Fuel 100
   weapons default
+[K_8802_Way]
+  TAKEOFF 325175.50 39774.80 0 0 &0
+  NORMFLY 322461.05 51513.36 1000.00 230.00 &0
+  NORMFLY_401 326101.11 56566.79 1000.00 230.00 &0
+  TRIGGERS 5 0 0 5 0
+  LANDING 325175.50 39774.80 0 0 &0
+[K_8803]
+  Planes 4
+  Skill 1
+  Class air.HS_123B1
+  Fuel 100
+  weapons 4xSC70
 [K_8803_Way]
-  NORMFLY 323241.55 54315.76 750.00 300.00 &0
+  TAKEOFF 325049.81 39769.68 0 0 &0
+  NORMFLY 325329.85 48368.33 700.00 230.00 &0
+  GATTACK 326601.37 52968.87 700.00 230.00 61_Chief 3 &0
+  NORMFLY 322602.34 49960.33 500.00 230.00 &0
+  LANDING 325047.81 41054.36 0 0 &0
+[K_8810]
+  Planes 1
+  Skill 1
+  Class air.SM79i
+  Fuel 100
+  weapons default
+[K_8810_Way]
+  NORMFLY 326950.47 52414.14 700.00 230.00 &0
 [Chiefs]
   0_Chief Armor.3-RenaultFT17 1
   1_Chief Armor.3-RenaultFT17 1
@@ -98,8 +181,8 @@
   25_Chief Armor.4-Semovente_751840 2
   26_Chief Armor.4-Semovente_751840 2
   27_Chief Armor.4-Semovente_751840 2
-  28_Chief Vehicles.3-StudebeckerTruck 1
-  29_Chief Vehicles.3-StudebeckerTruck 1
+  28_Chief Vehicles.2-FAIM 1
+  29_Chief Vehicles.4-ZIS5_PC 1
   30_Chief Vehicles.MaximeGAZ 1
   31_Chief Vehicles.MaximeGAZ 1
   32_Chief Vehicles.MaximeGAZ 1
@@ -127,16 +210,25 @@
   54_Chief Vehicles.3-SdKfz251 2
   55_Chief Vehicles.4-Autoblinda_41 2
   56_Chief Vehicles.4-Autoblinda_41 2
+  57_Chief Vehicles.ZIS6_fuel 1
+  58_Chief Vehicles.Tractor_US 1
+  59_Chief Vehicles.Universal_APC 1
+  60_Chief Vehicles.Universal_APC 1
+  61_Chief Vehicles.Universal_APC 1
+  62_Chief Vehicles.RussiaCarsColumnF 1
+  63_Chief Vehicles.2-HART_ATG_45_ch1 1
+  64_Chief Vehicles.HART_T94_37_ch1 1
+  65_Chief Vehicles.HART_ATG_45_ch1 1
+  66_Chief Vehicles.MaximeGAZ 1
+  67_Chief Vehicles.MaximeGAZ 1
 [0_Chief_Road]
   326454.53 53063.21 120.00 0 4 1.1111111640930176
   326500.00 53300.00 20.00
   326500.00 53500.00 20.00
   326487.84 53782.58 120.00
 [1_Chief_Road]
-  326476.97 52990.71 120.00 0 4 1.1111111640930176
-  326500.00 52700.00 20.00
-  326500.00 52500.00 20.00
-  326487.84 52318.16 120.00
+  326476.97 52990.71 120.00 0 2 1.1111111640930176
+  326260.88 52421.09 120.00
 [2_Chief_Road]
   324674.88 53503.34 120.00 0 2 2.777777910232544
   325940.41 53436.64 120.00
@@ -144,27 +236,37 @@
   325555.63 54509.87 120.00 0 2 2.777777910232544
   326049.00 53469.29 120.00
 [4_Chief_Road]
-  326466.75 54586.61 120.00 0 2 2.777777910232544
-  326425.03 53509.06 120.00
+  326466.75 54586.61 120.00 0 4 2.777777910232544
+  326500.00 53700.00 20.00
+  326500.00 53500.00 20.00
+  326399.16 53349.45 120.00
 [5_Chief_Road]
   327290.16 54590.46 120.00 0 4 2.777777910232544
   327100.00 54300.00 20.00
   326900.00 54100.00 20.00
   326895.09 53707.93 120.00
 [6_Chief_Road]
-  327791.75 54215.47 120.00 0 2 2.777777910232544
+  326167.69 54739.25 120.00 0 2 2.777777910232544
   326953.97 53605.64 120.00
 [7_Chief_Road]
-  328009.00 53581.16 120.00 0 2 2.777777910232544
+  326876.56 54487.09 120.00 0 2 2.777777910232544
   326929.66 53314.30 120.00
 [8_Chief_Road]
-  328210.91 52816.71 120.00 0 2 2.777777910232544
+  327582.94 54544.90 120.00 0 4 2.777777910232544
+  327300.00 54500.00 20.00
+  327100.00 54300.00 20.00
   327030.91 52771.94 120.00
 [9_Chief_Road]
-  328140.66 52052.46 120.00 0 2 2.777777910232544
+  326886.69 50300.87 120.00 0 8 2.777777910232544
+  326700.00 50300.00 20.00
+  326500.00 50300.00 20.00
+  326300.00 50500.00 20.00
+  326300.00 51300.00 20.00
+  326500.00 51500.00 20.00
+  326500.00 51900.00 20.00
   327062.59 52509.78 120.00
 [10_Chief_Road]
-  327722.56 51667.21 120.00 0 2 2.777777910232544
+  327008.63 51392.23 120.00 0 2 2.777777910232544
   326903.50 52426.61 120.00
 [11_Chief_Road]
   326722.69 51587.74 120.00 0 4 2.777777910232544
@@ -178,14 +280,16 @@
   325147.84 51998.29 120.00 0 2 2.777777910232544
   326077.78 52477.20 120.00
 [14_Chief_Road]
-  324945.69 52558.100 120.00 0 2 2.777777910232544
+  324945.69 52558.10 120.00 0 2 2.777777910232544
   325978.63 52837.26 120.00
 [15_Chief_Road]
   326497.38 53211.01 120.00 0 2 2.3611111640930176
   325795.53 53197.83 120.00
 [16_Chief_Road]
-  326508.09 53114.64 120.00 0 2 2.3611111640930176
-  326960.56 53205.66 120.00
+  326442.16 53112.43 120.00 0 2 2.3611111640930176
+  326458.38 53172.22 120.00 0 2 2.3611111640930176
+  326500.53 53426.80 120.00 0 2 2.3611111640930176
+  326429.66 53439.07 120.00
 [17_Chief_Road]
   324796.88 53017.75 120.00 0 2 2.222222328186035
   326399.84 52965.00 120.00
@@ -201,17 +305,29 @@
   327307.94 51492.04 120.00 0 2 2.222222328186035
   326770.91 52767.99 120.00
 [21_Chief_Road]
-  328250.38 52444.31 120.00 0 2 2.222222328186035
+  327080.44 50301.29 120.00 0 6 2.222222328186035
+  326900.00 50300.00 20.00
+  326500.00 50300.00 20.00
+  326300.00 50500.00 20.00
+  326300.00 51300.00 20.00
+  326288.91 51853.16 120.00 0 4 2.222222328186035
+  326500.00 52100.00 20.00
+  326500.00 52500.00 20.00
   326728.88 52627.88 120.00
 [22_Chief_Road]
-  328135.66 53217.96 120.00 0 2 2.222222328186035
+  326644.88 54621.55 120.00 0 5 2.222222328186035
+  326700.00 53900.00 20.00
+  326500.00 53700.00 20.00
+  326500.00 53100.00 20.00
   326733.53 52917.45 120.00
 [23_Chief_Road]
-  327898.81 53918.70 120.00 0 2 2.222222328186035
+  326069.94 54710.16 120.00 0 4 2.222222328186035
+  326300.00 53900.00 20.00
+  326500.00 53700.00 20.00
   326734.66 53410.02 120.00
 [24_Chief_Road]
-  327564.31 54423.01 120.00 0 4 2.222222328186035
-  327300.00 54500.00 20.00
+  327006.66 54377.35 120.00 0 4 2.222222328186035
+  326900.00 54100.00 20.00
   326700.00 53900.00 20.00
   326617.91 53587.50 120.00
 [25_Chief_Road]
@@ -234,17 +350,20 @@
   326500.00 53100.00 20.00
   326736.41 52952.46 120.00
 [29_Chief_Road]
-  326470.72 52226.12 120.00 0 4 3.055555582046509
+  326500.91 52303.73 120.00 0 4 3.055555582046509
   326500.00 52500.00 20.00
-  326500.00 52700.00 20.00
-  326454.66 52935.61 120.00 0 2 3.055555582046509
-  325947.66 52961.20 120.00
+  326500.00 52900.00 20.00
+  326500.06 53075.62 120.00 0 2 3.055555582046509
+  326584.16 53127.86 120.00 0 2 3.055555582046509
+  326652.78 53060.51 120.00 0 2 3.055555582046509
+  326793.53 53199.05 120.00 0 2 3.055555582046509
+  326801.22 53234.84 120.00
 [30_Chief_Road]
   325934.19 53074.37 120.00 0 2 3.055555582046509
   325747.25 53070.81 120.00
 [31_Chief_Road]
   325981.78 52398.56 120.00 0 2 3.055555582046509
-  325861.13 52306.74 120.00
+  326050.63 52358.87 120.00
 [32_Chief_Road]
   326409.16 52477.80 120.00 0 2 3.055555582046509
   326387.75 52327.87 120.00
@@ -253,7 +372,8 @@
   326706.34 52306.45 120.00
 [34_Chief_Road]
   326917.84 52528.66 120.00 0 2 3.055555582046509
-  326992.81 52437.63 120.00
+  326992.81 52437.63 120.00 0 2 3.055555582046509
+  327113.56 52449.76 120.00
 [35_Chief_Road]
   326920.50 52678.59 120.00 0 2 3.055555582046509
   327049.03 52643.79 120.00
@@ -261,17 +381,17 @@
   326934.75 52860.20 120.00 0 2 3.055555582046509
   327119.53 52838.49 120.00
 [37_Chief_Road]
-  326951.31 53033.67 120.00 0 2 3.055555582046509
-  327106.56 53036.34 120.00
+  326955.78 53554.05 120.00 0 2 3.055555582046509
+  326969.47 53062.55 120.00
 [38_Chief_Road]
   326939.22 53257.34 120.00 0 2 3.055555582046509
-  327143.41 53256.96 120.00
+  326930.16 53039.87 120.00
 [39_Chief_Road]
   326907.09 53383.17 120.00 0 2 3.055555582046509
-  327109.75 53423.20 120.00
+  326888.91 53485.91 120.00
 [40_Chief_Road]
-  326941.91 53527.75 120.00 0 2 3.055555582046509
-  327093.50 53569.55 120.00
+  326757.97 53505.38 120.00 0 2 3.055555582046509
+  326830.88 53535.52 120.00
 [41_Chief_Road]
   326856.22 53594.68 120.00 0 2 3.055555582046509
   326998.13 53792.79 120.00
@@ -279,8 +399,8 @@
   326786.63 53632.15 120.00 0 2 3.055555582046509
   326810.72 53792.79 120.00
 [43_Chief_Road]
-  326655.44 53642.86 120.00 0 2 3.055555582046509
-  326674.16 53784.75 120.00
+  326769.56 53594.46 120.00 0 2 3.055555582046509
+  326683.59 53642.31 120.00
 [44_Chief_Road]
   326398.41 53610.73 120.00 0 2 3.055555582046509
   326334.16 53728.54 120.00
@@ -301,15 +421,15 @@
   326329.69 52468.41 120.00
 [50_Chief_Road]
   324821.81 52801.73 120.00 0 2 2.6388890743255615
-  325451.19 52823.85 120.00
+  326177.47 52891.54 120.00
 [51_Chief_Road]
   324735.06 53319.15 120.00 0 2 2.6388890743255615
-  325403.59 53264.27 120.00
+  326154.63 53177.07 120.00
 [52_Chief_Road]
   324840.78 53983.96 120.00 0 4 2.6388890743255615
   325100.00 53900.00 20.00
-  325300.00 53900.00 20.00
-  325441.03 53679.89 120.00
+  325500.00 53900.00 20.00
+  325977.25 53447.77 120.00
 [53_Chief_Road]
   325404.25 54351.60 120.00 0 2 2.6388890743255615
   325676.28 53965.83 120.00
@@ -322,79 +442,76 @@
   326900.00 54100.00 20.00
   326831.38 53861.12 120.00
 [56_Chief_Road]
-  327974.69 51832.27 120.00 0 2 5.277778148651123
+  327045.94 51237.41 120.00 0 2 5.277778148651123
+  326836.69 51825.38 120.00 0 2 5.277778148651123
   326792.28 52571.53 120.00
+[57_Chief_Road]
+  326894.38 53292.42 120.00 0 2 3.055555582046509
+  326790.84 53186.56 120.00 0 2 3.055555582046509
+  326748.88 53177.44 120.00
+[58_Chief_Road]
+  326517.72 53174.64 120.00 0 2 3.055555582046509
+  326552.09 53213.87 120.00 0 2 3.055555582046509
+  326599.91 53290.31 120.00 0 2 3.055555582046509
+  326718.94 53259.08 120.00 0 2 3.055555582046509
+  326747.16 53265.77 120.00
+[59_Chief_Road]
+  326783.53 52932.69 120.00 0 2 3.472222328186035
+  326824.88 52958.02 120.00 0 2 3.472222328186035
+  326892.22 53056.32 120.00 0 2 3.472222328186035
+  326831.78 53153.62 120.00 0 2 3.472222328186035
+  326768.78 53347.23 120.00 0 2 3.472222328186035
+  326702.50 53417.45 120.00 0 2 3.472222328186035
+  326639.19 53475.54 120.00 0 2 3.472222328186035
+  326624.09 53508.35 120.00
+[60_Chief_Road]
+  326655.72 53357.23 120.00 0 2 3.472222328186035
+  326669.22 53382.29 120.00 0 2 3.472222328186035
+  326685.31 53403.45 120.00 0 2 3.472222328186035
+  326710.34 53446.40 120.00
+[61_Chief_Road]
+  326615.91 53068.64 120.00 0 2 3.472222328186035
+  326652.97 53011.55 120.00 0 2 3.472222328186035
+  326693.66 52942.64 120.00 0 2 3.472222328186035
+  326694.66 52926.23 120.00
+[62_Chief_Road]
+  326557.78 53159.58 120.00 0 2 3.055555582046509
+  326664.28 53269.91 120.00 0 2 3.055555582046509
+  326775.13 53238.33 120.00
+[63_Chief_Road]
+  326854.41 53258.61 120.00 0 2 1.25
+  326822.53 53278.44 120.00 0 2 1.25
+  326716.22 53321.70 120.00
+[64_Chief_Road]
+  326548.56 53234.51 120.00 0 2 1.25
+  326571.34 53270.29 120.00 0 2 1.25
+  326584.22 53305.03 120.00 0 2 1.25
+  326577.69 53322.27 120.00
+[65_Chief_Road]
+  326758.56 53088.39 120.00 0 2 1.25
+  326718.53 53060.74 120.00
+[66_Chief_Road]
+  323388.75 60211.03 120.00 0 2 3.055555582046509
+  323380.84 60627.95 120.00
+[67_Chief_Road]
+  323731.19 60696.12 120.00 0 2 3.055555582046509
+  323762.13 60236.20 120.00
 [NStationary]
-  1_Static vehicles.artillery.Artillery$RusInfantryE 1 325920.87 52224.30 510.00 0.0 0 1 1
-  2_Static vehicles.artillery.Artillery$RusInfantryE 1 325979.89 52211.51 480.00 0.0 0 1 1
-  3_Static vehicles.artillery.Artillery$RusInfantryE 1 326294.18 52216.81 480.00 0.0 0 1 1
-  4_Static vehicles.artillery.Artillery$RusInfantryE 1 326576.01 52220.23 480.00 0.0 0 1 1
-  5_Static vehicles.artillery.Artillery$RusInfantryE 1 326847.56 52221.38 480.00 0.0 0 1 1
-  6_Static vehicles.artillery.Artillery$RusInfantryE 1 327165.90 52223.66 480.00 0.0 0 1 1
-  7_Static vehicles.artillery.Artillery$RusInfantryE 1 327281.30 52237.16 420.00 0.0 0 1 1
-  8_Static vehicles.artillery.Artillery$RusInfantryE 1 327283.52 52244.76 420.00 0.0 0 1 1
-  9_Static vehicles.artillery.Artillery$RusInfantryE 1 327286.42 52266.82 390.00 0.0 0 1 1
-  10_Static vehicles.artillery.Artillery$RusInfantryE 1 327292.19 52352.99 390.00 0.0 0 1 1
-  11_Static vehicles.artillery.Artillery$RusInfantryE 1 327289.06 52491.09 390.00 0.0 0 1 1
-  12_Static vehicles.artillery.Artillery$RusInfantryE 1 327289.17 52701.76 390.00 0.0 0 1 1
-  13_Static vehicles.artillery.Artillery$RusInfantryE 1 327264.28 52851.94 390.00 0.0 0 1 1
-  14_Static vehicles.artillery.Artillery$RusInfantryE 1 327222.55 52974.49 390.00 0.0 0 1 1
-  15_Static vehicles.artillery.Artillery$RusInfantryE 1 327213.06 53056.98 390.00 0.0 0 1 1
-  16_Static vehicles.artillery.Artillery$RusInfantryE 1 327205.61 53169.09 390.00 0.0 0 1 1
-  17_Static vehicles.artillery.Artillery$RusInfantryE 1 327190.02 53301.48 390.00 0.0 0 1 1
-  18_Static vehicles.artillery.Artillery$RusInfantryE 1 327206.94 53440.81 390.00 0.0 0 1 1
-  19_Static vehicles.artillery.Artillery$RusInfantryE 1 327179.95 53544.81 390.00 0.0 0 1 1
-  20_Static vehicles.artillery.Artillery$RusInfantryE 1 327160.79 53707.100 390.00 0.0 0 1 1
-  21_Static vehicles.artillery.Artillery$RusInfantryE 1 327151.12 53836.58 390.00 0.0 0 1 1
-  22_Static vehicles.artillery.Artillery$RusInfantryE 1 327086.50 53925.12 690.00 0.0 0 1 1
-  23_Static vehicles.artillery.Artillery$RusInfantryE 1 327069.53 53930.85 645.00 0.0 0 1 1
-  24_Static vehicles.artillery.Artillery$RusInfantryE 1 326962.56 53924.25 645.00 0.0 0 1 1
-  25_Static vehicles.artillery.Artillery$RusInfantryE 1 326873.74 53917.32 645.00 0.0 0 1 1
-  26_Static vehicles.artillery.Artillery$RusInfantryE 1 326773.82 53912.65 645.00 0.0 0 1 1
-  27_Static vehicles.artillery.Artillery$RusInfantryE 1 326680.50 53901.41 645.00 0.0 0 1 1
-  28_Static vehicles.artillery.Artillery$RusInfantryE 1 326173.00 53776.18 645.00 0.0 0 1 1
-  29_Static vehicles.artillery.Artillery$RusInfantryE 1 326491.75 53862.45 645.00 0.0 0 1 1
-  30_Static vehicles.artillery.Artillery$RusInfantryE 1 326405.13 53852.46 645.00 0.0 0 1 1
-  31_Static vehicles.artillery.Artillery$RusInfantryE 1 326334.17 53836.18 645.00 0.0 0 1 1
-  32_Static vehicles.artillery.Artillery$RusInfantryE 1 326287.94 53816.52 645.00 0.0 0 1 1
-  33_Static vehicles.artillery.Artillery$RusInfantryE 1 326190.54 53789.82 645.00 0.0 0 1 1
-  34_Static vehicles.artillery.Artillery$RusInfantryE 1 326061.01 53768.87 645.00 0.0 0 1 1
-  35_Static vehicles.artillery.Artillery$RusInfantryE 1 325950.87 53748.98 645.00 0.0 0 1 1
-  36_Static vehicles.artillery.Artillery$RusInfantryE 1 325826.35 53711.19 645.00 0.0 0 1 1
-  37_Static vehicles.artillery.Artillery$RusInfantryE 1 325741.11 53693.90 645.00 0.0 0 1 1
-  38_Static vehicles.artillery.Artillery$RusInfantryE 1 325669.55 53669.25 645.00 0.0 0 1 1
-  39_Static vehicles.artillery.Artillery$RusInfantryE 1 325614.29 53654.95 645.00 0.0 0 1 1
-  40_Static vehicles.artillery.Artillery$RusInfantryE 1 325613.32 53613.47 645.00 0.0 0 1 1
-  41_Static vehicles.artillery.Artillery$RusInfantryE 1 325605.14 53567.39 585.00 0.0 0 1 1
-  42_Static vehicles.artillery.Artillery$RusInfantryE 1 325594.07 53512.49 585.00 0.0 0 1 1
-  43_Static vehicles.artillery.Artillery$RusInfantryE 1 325589.01 53444.39 555.00 0.0 0 1 1
-  44_Static vehicles.artillery.Artillery$RusInfantryE 1 325597.73 53346.55 585.00 0.0 0 1 1
-  45_Static vehicles.artillery.Artillery$RusInfantryE 1 325602.34 53280.81 585.00 0.0 0 1 1
-  46_Static vehicles.artillery.Artillery$RusInfantryE 1 325599.91 53174.82 585.00 0.0 0 1 1
-  47_Static vehicles.artillery.Artillery$RusInfantryE 1 325604.36 53056.01 585.00 0.0 0 1 1
-  48_Static vehicles.artillery.Artillery$RusInfantryE 1 325605.89 52913.12 585.00 0.0 0 1 1
-  49_Static vehicles.artillery.Artillery$RusInfantryE 1 325622.98 52812.99 585.00 0.0 0 1 1
-  50_Static vehicles.artillery.Artillery$RusInfantryE 1 325652.51 52662.39 585.00 0.0 0 1 1
-  51_Static vehicles.artillery.Artillery$RusInfantryE 1 325668.04 52477.43 585.00 0.0 0 1 1
-  52_Static vehicles.artillery.Artillery$RusInfantryE 1 325679.37 52342.57 540.00 0.0 0 1 1
-  53_Static vehicles.artillery.Artillery$RusInfantryE 1 325799.70 52281.63 480.00 0.0 0 1 1
-  0_Static vehicles.artillery.Artillery$T26_Early 1 325906.84 52268.37 480.00 0.0 0 1 1
+  0_Static vehicles.artillery.Artillery$T26_Early 1 326143.58 52504.38 480.00 0.0 0 1 1
   54_Static vehicles.artillery.Artillery$T26_Early 1 325791.79 52343.21 480.00 0.0 0 1 1
-  55_Static vehicles.artillery.Artillery$T26_Early 1 326044.17 52220.60 480.00 0.0 0 1 1
+  55_Static vehicles.artillery.Artillery$T26_Early 1 326168.30 52469.03 480.00 0.0 0 1 1
   56_Static vehicles.artillery.Artillery$T26_Early 1 326453.50 52296.31 450.00 0.0 0 1 1
   57_Static vehicles.artillery.Artillery$T26_Early 1 326609.22 52303.71 450.00 0.0 0 1 1
   58_Static vehicles.artillery.Artillery$T26_Early 1 326789.36 52304.82 450.00 0.0 0 1 1
-  59_Static vehicles.artillery.Artillery$T26_Early 1 327152.96 52276.08 450.00 0.0 0 1 1
-  60_Static vehicles.artillery.Artillery$T26_Early 1 327219.83 52278.09 450.00 0.0 0 1 1
-  61_Static vehicles.artillery.Artillery$T26_Early 1 327254.44 52307.14 705.00 0.0 0 1 1
-  62_Static vehicles.artillery.Artillery$T26_Early 1 327229.91 52457.03 360.00 0.0 0 1 1
-  63_Static vehicles.artillery.Artillery$T26_Early 1 327233.79 52542.95 360.00 0.0 0 1 1
-  64_Static vehicles.artillery.Artillery$T26_Early 1 327234.81 52707.92 360.00 0.0 0 1 1
-  65_Static vehicles.artillery.Artillery$T26_Early 1 327225.12 52858.07 360.00 0.0 0 1 1
-  66_Static vehicles.artillery.Artillery$T26_Early 1 327179.30 52966.68 360.00 0.0 0 1 1
-  67_Static vehicles.artillery.Artillery$T26_Early 1 327160.44 53113.53 360.00 0.0 0 1 1
-  68_Static vehicles.artillery.Artillery$T26_Early 1 327131.84 53361.86 360.00 0.0 0 1 1
-  69_Static vehicles.artillery.Artillery$T26_Early 1 327115.11 53530.45 360.00 0.0 0 1 1
+  59_Static vehicles.artillery.Artillery$T26_Early 1 326613.68 52729.39 450.00 0.0 0 1 1
+  60_Static vehicles.artillery.Artillery$T26_Early 1 326795.14 52947.85 450.00 0.0 0 1 1
+  61_Static vehicles.artillery.Artillery$T26_Early 1 326675.99 52694.93 705.00 0.0 0 1 1
+  62_Static vehicles.artillery.Artillery$T26_Early 1 326644.81 52949.65 360.00 0.0 0 1 1
+  63_Static vehicles.artillery.Artillery$T26_Early 1 326591.44 52991.19 360.00 0.0 0 1 1
+  64_Static vehicles.artillery.Artillery$T26_Early 1 326856.95 53031.81 360.00 0.0 0 1 1
+  65_Static vehicles.artillery.Artillery$T26_Early 1 326582.44 53037.45 360.00 0.0 0 1 1
+  66_Static vehicles.artillery.Artillery$T26_Early 1 326572.73 53068.83 360.00 0.0 0 1 1
+  69_Static vehicles.artillery.Artillery$T26_Early 1 326595.61 53472.56 615.00 0.0 0 1 1
   70_Static vehicles.artillery.Artillery$RenaultFT17 1 327068.02 53728.81 360.00 0.0 0 1 1
   71_Static vehicles.artillery.Artillery$RenaultFT17 1 326767.04 53855.96 630.00 0.0 0 1 1
   72_Static vehicles.artillery.Artillery$RenaultFT17 1 326998.60 53856.06 630.00 0.0 0 1 1
@@ -409,25 +526,93 @@
   81_Static vehicles.artillery.Artillery$RenaultFT17 1 325707.21 53316.16 540.00 0.0 0 1 1
   82_Static vehicles.artillery.Artillery$RenaultFT17 1 325701.88 53174.99 540.00 0.0 0 1 1
   83_Static vehicles.artillery.Artillery$RenaultFT17 1 325703.83 52996.87 540.00 0.0 0 1 1
-  84_Static vehicles.artillery.Artillery$RenaultFT17 1 325703.89 52903.19 540.00 0.0 0 1 1
+  84_Static vehicles.artillery.Artillery$RenaultFT17 1 326104.48 52923.61 540.00 0.0 0 1 1
   85_Static vehicles.artillery.Artillery$RenaultFT17 1 325709.32 52752.72 540.00 0.0 0 1 1
-  86_Static vehicles.artillery.Artillery$RenaultFT17 1 325715.61 52539.44 540.00 0.0 0 1 1
+  86_Static vehicles.artillery.Artillery$RenaultFT17 1 325717.49 52539.44 540.00 0.0 0 1 1
   87_Static vehicles.artillery.Artillery$RenaultFT17 1 325739.18 52424.10 540.00 0.0 0 1 1
   88_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 324993.44 52315.28 690.00 0.0 0 1 1
-  89_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 324896.12 53120.90 690.00 0.0 0 1 1
+  89_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 327788.10 53071.36 525.00 0.0 0 1 1
   90_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 325293.63 54233.03 690.00 0.0 0 1 1
   91_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 326216.10 54530.69 690.00 0.0 0 1 1
   92_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 326916.85 54578.60 690.00 0.0 0 1 1
   93_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 327703.59 54328.60 690.00 0.0 0 1 1
-  94_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 327893.31 54045.66 690.00 0.0 0 1 1
-  95_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 328076.78 53459.55 690.00 0.0 0 1 1
-  96_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 328162.42 52988.35 690.00 0.0 0 1 1
-  97_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 328277.76 52554.20 690.00 0.0 0 1 1
-  98_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 328285.13 52199.91 690.00 0.0 0 1 1
-  99_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 327926.70 51746.46 690.00 0.0 0 1 1
+  94_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 327841.09 53773.23 510.00 0.0 0 1 1
+  95_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 327781.92 53096.56 540.00 0.0 0 1 1
+  96_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 327788.64 53054.31 510.00 0.0 0 1 1
+  97_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 327824.29 53778.01 450.00 0.0 0 1 1
+  98_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 327826.96 53786.06 525.00 0.0 0 1 1
+  99_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 326776.13 51346.74 615.00 0.0 0 1 1
   100_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 327222.77 51416.41 690.00 0.0 0 1 1
-  101_Static vehicles.artillery.Artillery$Allied_88mm_Mortar 2 326199.84 51381.25 690.00 0.0 0 1 1
+  1_Static vehicles.stationary.Stationary$BunkerA_gun 1 326593.17 53514.37 615.00 0.0
+  3_Static vehicles.stationary.Stationary$BunkerA_gun 1 326847.74 53447.67 630.00 0.0
+  4_Static vehicles.stationary.Stationary$BunkerA_gun 1 326899.51 53084.05 450.00 0.0
+  6_Static vehicles.stationary.Stationary$BunkerA2_gun 1 326578.29 53106.47 480.00 0.0
+  2_Static vehicles.stationary.Stationary$BunkerG1_gun 1 326652.24 53522.01 615.00 0.0
+  5_Static vehicles.stationary.Stationary$BunkerA2_gun 1 326770.02 52971.05 435.00 0.0
+  7_Static vehicles.stationary.Stationary$DShK 1 326798.78 53459.34 630.00 0.0
+  8_Static vehicles.stationary.Stationary$DShK 1 326686.99 53034.03 480.00 0.0
+  9_Static vehicles.stationary.Stationary$MaximeGAZ 1 326759.50 53217.37 435.00 0.0
+  10_Static vehicles.stationary.Stationary$KitchenRU_H 1 326730.17 53209.01 375.00 0.0
+  11_Static vehicles.stationary.Stationary$Voit2P_Beige 1 326704.94 53182.05 510.00 0.0
+  12_Static vehicles.stationary.Stationary$Chariot02 1 326726.10 53190.54 480.00 0.0
+  13_Static vehicles.stationary.Stationary$GAZ_Bus 1 326747.31 53141.22 480.00 0.0
+  14_Static vehicles.stationary.Stationary$GAZ_Bus 1 326767.42 53038.75 525.00 0.0
+  15_Static vehicles.stationary.Stationary$ZIS5_medic 1 326750.41 53034.40 555.00 0.0
+  16_Static vehicles.stationary.Stationary$HART_RU_2 1 326729.79 53036.99 525.00 0.0
+  17_Static vehicles.stationary.Stationary$KitchenRU_H 1 326665.69 53254.56 645.00 0.0
+  18_Static vehicles.stationary.Stationary$HART_RU_1 1 326601.93 53266.92 465.00 0.0
+  19_Static vehicles.stationary.Stationary$ZIS5_medic 1 326611.59 53457.40 465.00 0.0
+  20_Static vehicles.stationary.Stationary$ZIS5_medic 1 326813.05 53419.75 525.00 0.0
 [Buildings]
+  0_bld House$Tent_Pup_US 1 326760.70 53226.30 605.00
+  1_bld House$Tent_Pup_US 1 326757.35 53224.89 605.00
+  2_bld House$Tent_Pup_US 1 326753.81 53223.25 605.00
+  3_bld House$Tent_Pup_US 1 326750.58 53226.86 605.00
+  4_bld House$Tent_Pup_US 1 326753.96 53228.24 605.00
+  5_bld House$Tent_Pup_US 1 326757.42 53229.61 605.00
+  6_bld House$Tent_Pup_US 1 326761.81 53230.77 605.00
+  7_bld House$Tent_Pup_US 1 326758.13 53234.11 605.00
+  8_bld House$Tent_Pup_US 1 326754.86 53233.22 605.00
+  9_bld House$Tent_Pup_US 1 326750.06 53232.07 605.00
+  10_bld House$Tent_Pup_US 1 326745.67 53230.73 605.00
+  11_bld House$Tent_Pyramid_US 1 326768.33 53225.83 605.00
+  12_bld House$Tent_HQ_US 1 326769.34 53232.60 365.00
+  13_bld House$AirdromeBarrelBlock1 1 326762.81 53204.70 365.00
+  14_bld House$AirdromeBarrelBlock1 1 326759.31 53207.16 425.00
+  15_bld House$AirdromeBarrelBlock1 1 326760.50 53204.55 455.00
+  16_bld House$AirdromeBarrelBlock1 1 326677.46 53242.65 500.00
+  17_bld House$AirdromeBarrelBlock1 1 326679.02 53241.87 470.00
+  18_bld House$AirdromeBarrelBlock1 1 326681.55 53245.70 530.00
+  19_bld House$AirdromeBarrelBlock2 1 326678.80 53244.99 530.00
+  20_bld House$AirdromeBarrelBlock2 1 326679.06 53244.32 530.00
+  21_bld House$AirdromeBarrelBlock2 1 326676.31 53243.54 530.00
+  22_bld House$AirdromeBarrelBlock2 1 326676.23 53242.76 530.00
+  23_bld House$Tent_Pup_US 1 326661.20 53217.11 530.00
+  24_bld House$Tent_Pup_US 1 326657.31 53220.27 530.00
+  25_bld House$Tent_Pup_US 1 326652.25 53223.87 410.00
+  26_bld House$Tent_Pup_US 1 326648.86 53220.04 380.00
+  27_bld House$Tent_Pup_US 1 326646.97 53216.73 710.00
+  28_bld House$Tent_Pup_US 1 326640.98 53213.83 360.00
+  29_bld House$Tent_Pup_US 1 326640.64 53209.88 375.00
+  30_bld House$Tent_Pup_US 1 326649.73 53213.03 385.00
+  31_bld House$Tent_Pyramid_US 1 326648.33 53207.02 385.00
+  32_bld House$Tent_Pyramid_US 1 326636.20 53203.11 430.00
+  33_bld House$FurniturePole 1 326735.11 53164.43 670.00
+  34_bld House$FurniturePole 1 326696.42 53125.04 675.00
+  35_bld House$FurniturePole 1 326643.59 53138.51 375.00
+  36_bld House$FurniturePole 1 326616.87 53185.45 420.00
+  37_bld House$FurniturePole 1 326644.13 53231.31 480.00
+  38_bld House$FurniturePole_no_wire 1 326619.58 53235.85 480.00
+  39_bld House$FurnitureSandbags_Round2 1 326595.43 53473.71 450.00
+  40_bld House$Furniturebaletall 1 326742.57 53240.76 450.00
+  41_bld House$Furniturebaletall 1 326746.74 53246.86 380.00
+  42_bld House$Furniturebaletall 1 326783.09 53384.11 380.00
+  43_bld House$FurnitureSandbag_Wall 1 326599.33 53517.81 635.00
+  44_bld House$FurnitureSandbag_Wall 1 326586.73 53513.78 605.00
+  45_bld House$FurnitureSandbag_Wall 1 326802.79 53461.18 605.00
+  46_bld House$FurnitureSandbag_Wall 1 326811.61 53464.75 620.00
+  47_bld House$FurnitureSandbag_Wall 1 326777.56 52978.81 605.00
+  48_bld House$FurnitureSandbag_Wall 1 326760.93 52970.36 605.00
 [StaticCamera]
   326548 52833 100 0
   326517 54301 100 0
@@ -436,6 +621,14 @@
   327526 53085 100 0
 [Bridge]
 [House]
+  ypM21 o
+  xpM21 g2
+  xpw21 01000
+  wpw21 w0
+  ypg21 010
+  xpg21 w0000
+  wpg21 1
+  xp021 M
 [FrontMarker]
   FrontMarker0 362470.66 83085.19 1
   FrontMarker1 351616.99 64230.22 1
