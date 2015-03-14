@@ -1,0 +1,187 @@
+[MAIN]
+  MAP mrz_Malta/mrz_load_medium.ini
+  TIME 12.000002
+  CloudType 1
+  CloudHeight 1200.0
+  army 1
+  playerNum 0
+[SEASON]
+  Year 1944
+  Month 1
+  Day 16
+[WEATHER]
+  WindDirection 55.0
+  WindSpeed 2.0
+  Gust 10
+  Turbulence 3
+[MDS]
+  MDS_Radar_SetRadarToAdvanceMode 0
+  MDS_Radar_RefreshInterval 0
+  MDS_Radar_DisableVectoring 0
+  MDS_Radar_EnableTowerCommunications 1
+  MDS_Radar_ShipsAsRadar 0
+  MDS_Radar_ShipRadar_MaxRange 100
+  MDS_Radar_ShipRadar_MinHeight 100
+  MDS_Radar_ShipRadar_MaxHeight 5000
+  MDS_Radar_ShipSmallRadar_MaxRange 25
+  MDS_Radar_ShipSmallRadar_MinHeight 0
+  MDS_Radar_ShipSmallRadar_MaxHeight 2000
+  MDS_Radar_ScoutsAsRadar 0
+  MDS_Radar_ScoutRadar_MaxRange 2
+  MDS_Radar_ScoutRadar_DeltaHeight 1500
+  MDS_Radar_HideUnpopulatedAirstripsFromMinimap 0
+  MDS_Radar_ScoutGroundObjects_Alpha 5
+  MDS_Radar_ScoutCompleteRecon 0
+  MDS_Misc_DisableAIRadioChatter 0
+  MDS_Misc_DespawnAIPlanesAfterLanding 1
+  MDS_Misc_HidePlayersCountOnHomeBase 0
+  MDS_Misc_BombsCat1_CratersVisibilityMultiplier 1.0
+  MDS_Misc_BombsCat2_CratersVisibilityMultiplier 1.0
+  MDS_Misc_BombsCat3_CratersVisibilityMultiplier 1.0
+[RespawnTime]
+  Bigship 1800
+  Ship 1800
+  Aeroanchored 1800
+  Artillery 1800
+  Searchlight 1800
+[Wing]
+  RN_NN10
+  g0113
+  g0110
+  g0111
+  g0112
+  i0120
+  i0121
+  i0122
+[RN_NN10]
+  Planes 4
+  Skill 1
+  Class air.BEAU10
+  Fuel 100
+  weapons default
+[RN_NN10_Way]
+  TAKEOFF 61867.53 72804.93 0 0 &0
+  NORMFLY 62461.60 77734.82 500.00 300.00 &0
+  NORMFLY 110161.100 86402.13 500.00 300.00 &0
+  LANDING 61976.08 73853.91 0 0 &0
+[g0113]
+  Planes 4
+  Skill 1
+  Class air.ME_323
+  Fuel 100
+  weapons default
+[g0113_Way]
+  NORMFLY 101588.12 119928.13 2000.00 300.00 &0
+  NORMFLY 101975.48 67827.93 2000.00 300.00 &0
+  NORMFLY 133986.27 353.83 500.00 300.00 &0
+[g0110]
+  Planes 4
+  Skill 1
+  Class air.ME_323
+  Fuel 100
+  weapons default
+[g0110_Way]
+  NORMFLY 103524.55 119990.50 2000.00 300.00 &0
+  NORMFLY 104349.07 67840.30 2000.00 300.00 &0
+  NORMFLY 136107.24 1052.60 500.00 300.00 &0
+[g0111]
+  Planes 4
+  Skill 1
+  Class air.ME_323
+  Fuel 100
+  weapons default
+[g0111_Way]
+  NORMFLY 105521.27 119961.21 2000.00 300.00 &0
+  NORMFLY 106651.13 68120.50 2000.00 300.00 &0
+  NORMFLY 138094.65 1860.95 500.00 300.00 &0
+[g0112]
+  Planes 4
+  Skill 1
+  Class air.ME_323
+  Fuel 100
+  weapons default
+[g0112_Way]
+  NORMFLY 106703.17 119893.43 2000.00 300.00 &0
+  NORMFLY 107812.41 68272.90 2000.00 300.00 &0
+  NORMFLY 139488.33 2613.05 500.00 300.00 &0
+[i0120]
+  Planes 2
+  Skill 1
+  Class air.MC_202_7
+  Fuel 100
+  weapons default
+[i0120_Way]
+  NORMFLY 100057.63 119847.26 2000.00 300.00 &0
+  NORMFLY 100574.01 67194.89 500.00 300.00 &0
+  NORMFLY 107623.78 51431.65 2000.00 300.00 &0
+  NORMFLY 132576.04 299.98 500.00 300.00 &0
+[i0121]
+  Planes 2
+  Skill 1
+  Class air.MC_202_7
+  Fuel 100
+  weapons default
+[i0121_Way]
+  NORMFLY 108233.99 119861.90 2000.00 300.00 &0
+  NORMFLY 109367.23 68255.90 2000.00 300.00 &0
+  NORMFLY 141010.77 4794.48 2000.00 300.00 &0
+[i0122]
+  Planes 1
+  Skill 1
+  Class air.MC_202_7
+  Fuel 100
+  weapons default
+  StartTime 14
+[i0122_Way]
+  NORMFLY 141185.11 3574.06 500.00 300.00 &0
+[Chiefs]
+  0_Chief Ships.HMSJavelin 1 0 2 1.0
+  1_Chief Ships.HMSFlowerCorvette 1 0 2 1.0
+  2_Chief Ships.HMSFiji 1 0 2 1.0
+  3_Chief Ships.HMSKingGeorgeVBB 1 0 2 1.0
+[0_Chief_Road]
+  47846.03 68536.98 120.00 0 2 9.774444580078125
+  15320.16 54395.30 120.00 0 2 9.774444580078125
+  951.43 53806.07 120.00
+[1_Chief_Road]
+  48915.30 67240.66 120.00 0 2 4.722222328186035
+  15918.04 52391.89 120.00 0 2 4.722222328186035
+  951.43 51684.81 120.00
+[2_Chief_Road]
+  47147.59 69597.61 120.00 0 2 8.424028396606445
+  14975.26 55927.32 120.00 0 2 8.424028396606445
+  951.43 56045.16 120.00
+[3_Chief_Road]
+  45379.88 66887.13 120.00 0 2 7.330833911895752
+  12264.78 53806.07 120.00 0 2 7.330833911895752
+  2483.44 54159.61 120.00
+[NStationary]
+  0_Static vehicles.planes.Plane$SPITFIRE5BCLP 1 61916.14 72836.18 195.00 0.0 gb 1 1.0 null 1
+  1_Static vehicles.planes.Plane$SPITFIRE5BCLP 1 61916.05 72852.46 194.100 0.0 gb 1 1.0 null 1
+  2_Static vehicles.planes.Plane$SPITFIRE5BCLP 1 61916.96 72867.84 195.00 0.0 gb 1 1.0 null 1
+  3_Static vehicles.planes.Plane$SPITFIRE5BCLP 1 61918.09 72887.64 195.00 0.0 gb 1 1.0 null 1
+  4_Static vehicles.planes.Plane$SPITFIRE5BCLP 1 61929.09 73903.52 195.00 0.0 gb 1 1.0 null 1
+  5_Static vehicles.planes.Plane$SPITFIRE5BCLP 1 61920.33 73915.30 195.00 0.0 gb 1 1.0 null 1
+  6_Static vehicles.planes.Plane$SPITFIRE5BCLP 1 61908.85 73929.25 195.00 0.0 gb 1 1.0 null 1
+  7_Static vehicles.planes.Plane$SPITFIRE5BCLP 1 61899.18 73940.95 195.00 0.0 gb 1 1.0 null 1
+  8_Static vehicles.planes.Plane$SPITFIRE5BCLP 1 61887.48 73952.88 195.00 0.0 gb 1 1.0 null 1
+  9_Static vehicles.planes.Plane$SPITFIRE5BCLP 1 61878.03 73963.90 195.00 0.0 gb 1 1.0 null 1
+  10_Static vehicles.planes.Plane$SPITFIRE5BCLP 1 61869.03 73974.93 195.00 0.0 gb 1 1.0 null 1
+  11_Static vehicles.planes.Plane$Wellington3 1 61933.49 72838.13 539.100 0.0 null 1 1.0 null 1
+  12_Static vehicles.planes.Plane$Wellington3 1 61934.39 72874.13 539.100 0.0 null 1 1.0 null 1
+  13_Static vehicles.planes.Plane$Wellington3 1 61955.54 72856.13 539.100 0.0 null 1 1.0 null 1
+  14_Static vehicles.planes.Plane$Wellington3 1 61972.19 72876.60 539.100 0.0 null 1 1.0 null 1
+  15_Static vehicles.planes.Plane$Wellington3 1 61973.09 72834.98 539.100 0.0 null 1 1.0 null 1
+[Buildings]
+[Bridge]
+[House]
+[FrontMarker]
+  FrontMarker0 56779.67 77617.24 1
+  FrontMarker1 78136.84 122570.94 2
+  FrontMarker2 92047.44 60405.52 2
+  FrontMarker3 21103.33 114615.30 2
+  FrontMarker4 23342.43 106837.37 2
+  FrontMarker5 24520.90 99648.69 1
+  FrontMarker6 2365.60 71011.78 1
+  FrontMarker7 19571.31 94699.10 1
+  FrontMarker8 78377.14 51802.66 1
