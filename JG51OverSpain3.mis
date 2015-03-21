@@ -1,0 +1,111 @@
+[MAIN]
+  MAP Jir_Northern_Spain_1936/load.ini
+  TIME 10.283335
+  CloudType 1
+  CloudHeight 1000.0
+  army 1
+  playerNum 0
+[SEASON]
+  Year 1938
+  Month 3
+  Day 17
+[WEATHER]
+  WindDirection 25.0
+  WindSpeed 1.0
+  Gust 0
+  Turbulence 0
+[MDS]
+  MDS_Radar_SetRadarToAdvanceMode 0
+  MDS_Radar_RefreshInterval 0
+  MDS_Radar_DisableVectoring 0
+  MDS_Radar_EnableTowerCommunications 1
+  MDS_Radar_ShipsAsRadar 0
+  MDS_Radar_ShipRadar_MaxRange 100
+  MDS_Radar_ShipRadar_MinHeight 100
+  MDS_Radar_ShipRadar_MaxHeight 5000
+  MDS_Radar_ShipSmallRadar_MaxRange 25
+  MDS_Radar_ShipSmallRadar_MinHeight 0
+  MDS_Radar_ShipSmallRadar_MaxHeight 2000
+  MDS_Radar_ScoutsAsRadar 0
+  MDS_Radar_ScoutRadar_MaxRange 2
+  MDS_Radar_ScoutRadar_DeltaHeight 1500
+  MDS_Radar_HideUnpopulatedAirstripsFromMinimap 0
+  MDS_Radar_ScoutGroundObjects_Alpha 5
+  MDS_Radar_ScoutCompleteRecon 0
+  MDS_Misc_DisableAIRadioChatter 0
+  MDS_Misc_DespawnAIPlanesAfterLanding 1
+  MDS_Misc_HidePlayersCountOnHomeBase 0
+  MDS_Misc_BombsCat1_CratersVisibilityMultiplier 1.0
+  MDS_Misc_BombsCat2_CratersVisibilityMultiplier 1.0
+  MDS_Misc_BombsCat3_CratersVisibilityMultiplier 1.0
+[RespawnTime]
+  Bigship 1800
+  Ship 1800
+  Aeroanchored 1800
+  Artillery 1800
+  Searchlight 1800
+[Chiefs]
+  0_Chief Trains.USSR_CommandStaffTrain/AA 1
+[0_Chief_Road]
+  307500.00 80500.00 20.00 0 22 5.555555820465088
+  307100.00 80500.00 20.00
+  306900.00 80700.00 20.00
+  305900.00 80700.00 20.00
+  304900.00 81700.00 20.00
+  303900.00 81700.00 20.00
+  303300.00 82300.00 20.00
+  303100.00 82300.00 20.00
+  302900.00 82100.00 20.00
+  302900.00 81900.00 -7.00
+  302900.00 81700.00 -7.00
+  302900.00 81500.00 20.00
+  302900.00 81100.00 20.00
+  302700.00 80900.00 20.00
+  301900.00 81700.00 20.00
+  301500.00 81700.00 20.00
+  301100.00 81300.00 20.00
+  300500.00 81300.00 20.00
+  300300.00 81500.00 20.00
+  300300.00 82300.00 20.00
+  299700.00 82900.00 20.00
+  299700.00 83100.00 20.00
+[NStationary]
+[Buildings]
+[Bridge]
+[House]
+  ypM21 o
+  xpM21 g2
+  xpw21 01000
+  wpw21 w0
+  ypg21 010
+  xpg21 w0000
+  wpg21 1
+  xp021 M
+[FrontMarker]
+  FrontMarker0 320812.60 88582.09 1
+  FrontMarker1 429324.78 1143.34 1
+  FrontMarker2 329693.82 68620.05 2
+  FrontMarker3 321189.30 66803.38 2
+  FrontMarker4 299513.10 74665.23 2
+  FrontMarker5 328676.46 88974.30 2
+  FrontMarker6 289239.68 87774.52 2
+  FrontMarker7 322505.10 63925.14 2
+  FrontMarker8 416501.96 5587.12 2
+  FrontMarker9 426833.99 23039.87 2
+  FrontMarker10 322771.42 59922.58 1
+  FrontMarker11 320813.40 59443.26 2
+  FrontMarker12 312035.39 71004.24 2
+  FrontMarker13 41407.49 56253.86 2
+  FrontMarker14 298776.36 95690.43 2
+  FrontMarker15 327800.23 79315.67 2
+  FrontMarker16 313281.16 90227.97 2
+  FrontMarker17 324389.65 45797.93 2
+  FrontMarker18 326803.32 56206.90 2
+  FrontMarker19 327595.01 61154.26 2
+  FrontMarker20 334218.50 51447.02 2
+  FrontMarker21 299509.42 83933.23 1
+  FrontMarker22 320746.45 79990.68 2
+  FrontMarker23 3824.39 95131.71 2
+  FrontMarker24 322040.55 93880.60 2
+  FrontMarker25 295161.97 80808.09 2
+  FrontMarker26 324686.95 72358.85 1
