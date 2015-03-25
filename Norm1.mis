@@ -3,7 +3,7 @@
   TIME 12.000002
   CloudType 0
   CloudHeight 1000.0
-  army 1
+  army 2
   playerNum 0
 [SEASON]
   Year 1940
@@ -44,6 +44,64 @@
   Aeroanchored 1800
   Artillery 1800
   Searchlight 1800
+[Wing]
+  723sq00
+  723sq10
+  Stab_JG5100
+  Stab_JG5101
+[723sq00]
+  Planes 4
+  Skill 0
+  Class air.HalifaxBMkIII
+  Fuel 70
+  weapons 24x250
+[723sq00_Way]
+  NORMFLY 60559.40 86398.19 5000.00 300.00 &0
+  NORMFLY 70636.77 68802.39 5000.00 300.00 &0 F6
+  GATTACK 74355.55 62507.80 5000.00 300.00 &0 F6
+  NORMFLY 76585.24 58733.38 5000.00 300.00 &0 F6
+  NORMFLY 81039.82 61385.12 5000.00 300.00 &0 F6
+  NORMFLY 76033.100 83587.97 5000.00 300.00 &0 F6
+  NORMFLY 79117.94 93771.40 2500.00 300.00 &0 F6
+  LANDING 72810.97 97946.95 0 0 &0
+[723sq10]
+  Planes 4
+  Skill 0
+  Class air.HalifaxBMkIII
+  Fuel 70
+  weapons 24x250
+[723sq10_Way]
+  NORMFLY 60981.85 85487.72 5000.00 300.00 &0
+  NORMFLY 70380.22 68675.40 5000.00 300.00 &0
+  GATTACK 74513.89 61943.07 5000.00 300.00 &0
+  NORMFLY 76571.87 58505.56 5000.00 300.00 &0
+  NORMFLY 81137.94 61283.27 5000.00 300.00 &0
+  NORMFLY 75872.81 83293.10 5000.00 300.00 &0
+  NORMFLY 79031.11 93627.22 2500.00 300.00 &0
+  LANDING 72810.97 97946.95 0 0 &0
+[Stab_JG5100]
+  Planes 4
+  Skill 1
+  Class air.BF_109G6
+  Fuel 100
+  weapons default
+[Stab_JG5100_Way]
+  NORMFLY 67696.00 75729.43 6000.00 300.00 &0
+  NORMFLY_401 65374.85 81805.14 6000.00 300.00 &0
+  TRIGGERS 2 0 0 5 0
+  NORMFLY 75759.79 66348.49 2500.00 300.00 &0
+  LANDING 74611.62 62643.96 0 0 &0
+[Stab_JG5101]
+  Planes 1
+  Skill 3
+  Class air.JU_52_3MG4E
+  Fuel 78
+  weapons 18xPara
+[Stab_JG5101_Way]
+  NORMFLY 109460.26 47115.45 2500.00 285.00 &0
+  GATTACK 102527.15 45631.34 2500.00 180.00 &0
+  NORMFLY 73276.17 58550.42 1500.00 180.00 &0
+  LANDING 74052.41 61107.64 0 0 &0
 [NStationary]
   37_Static vehicles.planes.Plane$C_47 1 72700.39 98357.77 355.00 0.0 us 2 1.0 null 0
   38_Static vehicles.planes.Plane$C_47 1 72725.66 98397.87 385.00 0.0 us 2 1.0 null 0
@@ -193,14 +251,7 @@
   54_Static vehicles.planes.Plane$B_17G 1 72335.54 98952.63 434.10 0.0 us 2 1.0 null 0
   55_Static vehicles.planes.Plane$B_17G 1 72372.19 98961.86 434.10 0.0 us 2 1.0 null 0
   56_Static vehicles.planes.Plane$B_17G 1 72331.64 98904.56 434.10 0.0 us 2 1.0 null 0
-  64_Static vehicles.planes.Plane$P_51D5NT 1 72452.01 98985.24 430.00 0.0 us 2 1.0 null 0
-  63_Static vehicles.planes.Plane$P_51D5NT 1 72491.33 98996.42 430.00 0.0 us 2 1.0 null 0
-  65_Static vehicles.planes.Plane$P_51D5NT 1 72476.32 98977.25 434.10 0.0 us 2 1.0 null 0
-  66_Static vehicles.planes.Plane$P_51D5NT 1 72514.95 98987.21 439.10 0.0 us 2 1.0 null 0
-  61_Static vehicles.planes.Plane$P_51D5NT 1 72531.04 99006.83 430.00 0.0 us 2 1.0 null 0
-  67_Static vehicles.planes.Plane$P_51D5NT 1 72555.78 98996.60 434.10 0.0 us 2 1.0 null 0
   57_Static vehicles.planes.Plane$B_17G 1 72600.65 98800.24 345.00 0.0 us 2 1.0 null 0
-  62_Static vehicles.planes.Plane$P_51D5NT 1 72569.60 99016.08 430.00 0.0 us 2 1.0 null 0
   39_Static vehicles.planes.Plane$B_17G 1 72583.27 98914.70 524.10 0.0 us 2 1.0 null 0
   1_Static vehicles.planes.Plane$BF_110G2 2 105995.25 15238.76 485.00 0.0 null 2 1.0 null 0
   12_Static vehicles.planes.Plane$BF_110G2 2 106042.69 15208.28 500.00 0.0 null 2 1.0 null 0
@@ -212,13 +263,8 @@
   16_Static ships.Ship$Tramp 1 72084.82 97311.36 635.00 0.0 0 2 1.0
   17_Static ships.Ship$Tral 1 72113.89 97356.60 635.00 0.0 0 2 1.0
   18_Static ships.Ship$Tramp 1 72225.64 97321.02 635.00 0.0 0 2 1.0
-  19_Static vehicles.planes.Plane$B_24J100 1 72615.40 98428.54 210.00 0.0 us 2 1.0 null 0
-  20_Static vehicles.planes.Plane$B_24J100 1 72591.04 98389.41 210.00 0.0 us 2 1.0 null 0
-  21_Static vehicles.planes.Plane$B_24J100 1 72631.21 98239.19 300.00 0.0 us 2 1.0 null 0
   68_Static vehicles.planes.Plane$B_24J100 1 72655.40 98465.08 480.00 0.0 us 2 1.0 null 0
   69_Static vehicles.planes.Plane$B_24J100 1 72693.20 98443.31 480.00 0.0 us 2 1.0 null 0
-  22_Static vehicles.planes.Plane$B_24J100 1 72541.04 98290.38 300.00 0.0 us 2 1.0 null 0
-  23_Static vehicles.planes.Plane$B_24J100 1 72582.62 98266.50 300.00 0.0 us 2 1.0 null 0
   71_Static vehicles.planes.Plane$P_51B 1 72710.21 98263.07 210.00 0.0 us 2 1.0 null 0
   70_Static vehicles.planes.Plane$P_51B 1 72720.88 98277.75 220.00 0.0 us 2 1.0 null 0
   24_Static ships.Ship$Shuka 1 72440.50 97334.76 635.00 0.0 0 0 50.0
@@ -939,12 +985,12 @@
   968_Static vehicles.stationary.Siren$SirenCity 2 117321.96 86886.15 360.00 0.0
   969_Static vehicles.stationary.Siren$SirenCity 2 116448.25 87319.33 360.00 0.0
   970_Static vehicles.stationary.Siren$SirenCity 2 115853.54 86834.75 360.00 0.0
-  971_Static vehicles.planes.Plane$BF_109G6 2 40593.26 28116.66 453.86 0.0 null 2 1.0 null 0
-  972_Static vehicles.planes.Plane$BF_109G6 2 40505.22 28119.28 478.14 0.0 null 2 1.0 null 0
-  973_Static vehicles.planes.Plane$BF_109G6 2 40468.90 28217.64 224.12 0.0 null 2 1.0 null 0
-  974_Static vehicles.planes.Plane$BF_109G6 2 40558.49 28288.83 270.75 0.0 null 2 1.0 null 0
-  975_Static vehicles.planes.Plane$BF_109G6 2 40620.59 28285.28 274.87 0.0 null 2 1.0 null 0
-  976_Static vehicles.planes.Plane$BF_109G6 2 40649.75 28286.32 275.19 0.0 null 2 1.0 null 0
+  971_Static vehicles.planes.Plane$BF_109G6 2 40593.26 28116.66 453.62 0.0 null 2 1.0 null 0
+  972_Static vehicles.planes.Plane$BF_109G6 2 40505.22 28119.28 477.75 0.0 null 2 1.0 null 0
+  973_Static vehicles.planes.Plane$BF_109G6 2 40468.90 28217.64 223.97 0.0 null 2 1.0 null 0
+  974_Static vehicles.planes.Plane$BF_109G6 2 40558.49 28288.83 270.96 0.0 null 2 1.0 null 0
+  975_Static vehicles.planes.Plane$BF_109G6 2 40620.59 28285.28 275.95 0.0 null 2 1.0 null 0
+  976_Static vehicles.planes.Plane$BF_109G6 2 40649.75 28286.32 276.27 0.0 null 2 1.0 null 0
   977_Static vehicles.artillery.Artillery$Trip25mm_JA 2 39796.78 29468.90 650.00 0.0 0 1 1
   978_Static vehicles.artillery.Artillery$Trip25mm_JA 2 38846.36 29916.54 590.00 0.0 0 1 1
   979_Static vehicles.artillery.Artillery$Type98_20mm_JA 2 38047.63 29001.83 395.00 0.0 0 1 1
@@ -1007,7 +1053,7 @@
   1036_Static vehicles.planes.Plane$JU_88A4 2 39145.63 29594.52 509.10 0.0 null 2 1.0 null 0
   1037_Static vehicles.planes.Plane$JU_88A4 2 39227.04 29469.83 244.10 0.0 null 2 1.0 null 0
   1038_Static vehicles.planes.Plane$JU_88A4 2 39180.12 29449.56 244.10 0.0 null 2 1.0 null 0
-  1039_Static vehicles.planes.Plane$BF_109G6 2 40668.56 28123.39 366.40 0.0 null 2 1.0 null 0
+  1039_Static vehicles.planes.Plane$BF_109G6 2 40668.56 28123.39 366.73 0.0 null 2 1.0 null 0
   1040_Static vehicles.stationary.Stationary$OpelKadett 2 38646.38 29307.03 465.00 0.0
   1041_Static vehicles.stationary.Stationary$OpelKadett 2 38653.15 29286.92 435.00 0.0
   1042_Static vehicles.stationary.Stationary$OpelKadett 2 38602.88 29300.78 555.00 0.0
@@ -1466,6 +1512,19 @@
   519_Static vehicles.stationary.Stationary$OpelBlitz6700A_fuel 2 110080.35 95834.94 425.00 0.0
   520_Static vehicles.stationary.Stationary$OpelBlitz6700A_fuel 2 110079.77 95844.07 455.00 0.0
   521_Static vehicles.stationary.Stationary$OpelBlitz6700A_fuel 2 110086.23 95798.75 440.00 0.0
+  20_Static vehicles.planes.Plane$HalifaxBMkIII 1 72591.04 98389.41 210.00 0.0 null 1 1.0 null 1
+  19_Static vehicles.planes.Plane$HalifaxBMkIII 1 72615.40 98428.54 210.00 0.0 null 1 1.0 null 1
+  22_Static vehicles.planes.Plane$HalifaxBMkIII 1 72541.04 98290.38 300.00 0.0 null 1 1.0 null 1
+  23_Static vehicles.planes.Plane$HalifaxBMkIII 1 72582.62 98266.50 300.00 0.0 null 1 1.0 null 1
+  21_Static vehicles.planes.Plane$HalifaxBMkIII 1 72631.21 98239.19 300.00 0.0 null 1 1.0 null 1
+  66_Static vehicles.planes.Plane$P_51A 1 72514.95 98987.21 439.10 0.0 us 1 1.0 null 1
+  61_Static vehicles.planes.Plane$P_51A 1 72530.29 99006.54 409.10 0.0 us 1 1.0 null 1
+  62_Static vehicles.planes.Plane$P_51A 1 72563.51 99013.58 439.10 0.0 us 1 1.0 null 1
+  63_Static vehicles.planes.Plane$P_51A 1 72551.63 98997.68 469.10 0.0 us 1 1.0 null 1
+  64_Static vehicles.planes.Plane$P_51A 1 72487.80 98996.47 454.10 0.0 us 1 1.0 null 1
+  65_Static vehicles.planes.Plane$P_51A 1 72466.26 98984.19 439.10 0.0 us 1 1.0 null 1
+  67_Static vehicles.planes.Plane$P_51A 1 72440.28 98979.76 424.10 0.0 us 1 1.0 null 1
+  522_Static vehicles.planes.Plane$P_51A 1 72461.83 98966.87 439.10 0.0 us 1 1.0 null 1
 [Buildings]
   0_bld House$HangarPBY 1 72602.60 98919.99 705.00
   1_bld House$HangarPBY 1 72615.61 98871.80 705.00
@@ -13637,7 +13696,7 @@
   12167_bld House$AirdromeControlTowerSmall 0 71139.70 80414.69 595.00
   12168_bld House$AirdromeControlTowerSmall 0 71129.14 80432.01 595.00
   12169_bld House$AirdromeControlTowerSmall 0 71124.39 80438.01 595.00
-  12170_bld House$AirdromeControlTowerSmall 0 70944.79 80633.04 595.00
+  12170_bld House$AirdromeControlTowerSmall 0 69126.95 81209.08 595.00
   12171_bld House$AirdromeControlTowerSmall 0 70920.33 80646.35 595.00
   12172_bld House$AirdromeControlTowerSmall 0 70902.50 80660.70 595.00
   12173_bld House$AirdromeControlTowerSmall 0 70888.04 80682.37 595.00
@@ -21170,5 +21229,8 @@
   19700_bld House$RailPassage 1 110050.91 95830.08 620.00
   19701_bld House$AirdromeFuelTank 1 110076.77 95797.80 710.00
   19702_bld House$AirdromeFuelTank 1 110071.38 95833.73 360.00
+[Target]
+  0 0 0 0 1000 69458 67816 0 1 723sq10 70380 68675
+  0 0 0 0 1000 74210 70717 0 1 723sq00 70636 68802
 [Bridge]
 [House]
